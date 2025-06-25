@@ -1,7 +1,7 @@
 import { PasswordProvider } from '@openauthjs/openauth/provider/password';
 import { PasswordUI } from '@openauthjs/openauth/ui/password';
-import { SendCode } from '$email/auth';
 import { DynamoStorage } from '@openauthjs/openauth/storage/dynamo';
+import { SendCode } from '$email/auth';
 import { issuer } from '@openauthjs/openauth';
 import { subjects } from '$auth/subjects';
 import { handle } from 'hono/aws-lambda';

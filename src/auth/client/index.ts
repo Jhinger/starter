@@ -4,7 +4,7 @@ import type { RequestEvent } from '@sveltejs/kit';
 
 export function createAuthClient(event: RequestEvent) {
 	return createClient({
-		clientID: 'flagship-auth',
+		clientID: 'auth',
 		issuer: Resource.Auth.url,
 		fetch: event.fetch
 	});

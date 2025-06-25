@@ -18,5 +18,5 @@ export async function GET(event: RequestEvent) {
 		console.error(error);
 	}
 
-	redirect(302, '/projects');
+	redirect(302, '/');
 }
