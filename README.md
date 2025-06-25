@@ -1,4 +1,4 @@
-# Starter Kit
+# Simple Starter
 
 ## Setup
 
@@ -10,7 +10,7 @@
    npm install
    ```
 
-2. Configure SST (`sst.config.ts`) to set your AWS settings.
+2. Configure SST (`sst.config.ts`) and update your AWS Credentials.
 
 ## Development
 
@@ -25,11 +25,6 @@ sst dev
 sst deploy
 ```
 
-## SST
-
-- `sst.config.ts` defines Auth and SvelteKit constructs.
-- Modify auth issuer handler path and config.
-
 ## Updates
 
 Customize the following files:
@@ -37,5 +32,3 @@ Customize the following files:
 - `src/email/auth.ts`
 - `src/auth/index.ts`
 - `src/auth/client/index.ts`
-
----
